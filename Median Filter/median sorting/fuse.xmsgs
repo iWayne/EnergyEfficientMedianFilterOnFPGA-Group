@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLCompiler" num="1728" delta="unknown" >"C:/.Xilinx/Spring_2014/Labs/final_project/median sorting/../memory/main.vhd" Line 145: Type error near <arg fmt="%s" index="1">addr_counter</arg> ; current type <arg fmt="%s" index="2">std_logic_vector</arg>; expected type <arg fmt="%s" index="3">natural</arg>
+</msg>
+
+<msg type="error" file="HDLCompiler" num="539" delta="unknown" >"C:/.Xilinx/Spring_2014/Labs/final_project/median sorting/../memory/main.vhd" Line 145: Indexed name is not a <arg fmt="%s" index="1">natural</arg>
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1731" delta="unknown" >"C:/.Xilinx/Spring_2014/Labs/final_project/median sorting/../memory/main.vhd" Line 146: found &apos;<arg fmt="%d" index="1">0</arg>&apos; definitions of operator <arg fmt="%s" index="2">&quot;+&quot;</arg>, cannot determine exact overloaded matching definition for <arg fmt="%s" index="2">&quot;+&quot;</arg>
+</msg>
+
+<msg type="error" file="HDLCompiler" num="539" delta="unknown" >"C:/.Xilinx/Spring_2014/Labs/final_project/median sorting/../memory/main.vhd" Line 146: Indexed name is not a <arg fmt="%s" index="1">natural</arg>
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1731" delta="unknown" >"C:/.Xilinx/Spring_2014/Labs/final_project/median sorting/../memory/main.vhd" Line 147: found &apos;<arg fmt="%d" index="1">0</arg>&apos; definitions of operator <arg fmt="%s" index="2">&quot;+&quot;</arg>, cannot determine exact overloaded matching definition for <arg fmt="%s" index="2">&quot;+&quot;</arg>
+</msg>
+
+<msg type="error" file="HDLCompiler" num="539" delta="unknown" >"C:/.Xilinx/Spring_2014/Labs/final_project/median sorting/../memory/main.vhd" Line 147: Indexed name is not a <arg fmt="%s" index="1">natural</arg>
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1731" delta="unknown" >"C:/.Xilinx/Spring_2014/Labs/final_project/median sorting/../memory/main.vhd" Line 184: found &apos;<arg fmt="%d" index="1">0</arg>&apos; definitions of operator <arg fmt="%s" index="2">&quot;-&quot;</arg>, cannot determine exact overloaded matching definition for <arg fmt="%s" index="2">&quot;-&quot;</arg>
+</msg>
+
+<msg type="error" file="HDLCompiler" num="539" delta="unknown" >"C:/.Xilinx/Spring_2014/Labs/final_project/median sorting/../memory/main.vhd" Line 184: Indexed name is not a <arg fmt="%s" index="1">natural</arg>
+</msg>
+
+<msg type="error" file="HDLCompiler" num="854" delta="unknown" >"C:/.Xilinx/Spring_2014/Labs/final_project/median sorting/../memory/main.vhd" Line 15: Unit &lt;<arg fmt="%s" index="1">behavioral</arg>&gt; ignored due to previous errors.
+</msg>
+
+</messages>
+

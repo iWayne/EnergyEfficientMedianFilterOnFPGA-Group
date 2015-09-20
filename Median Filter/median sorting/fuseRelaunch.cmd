@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/.Xilinx/Spring_2014/Labs/final_project/memory_modified/sorting_tb_isim_beh.exe" -prj "C:/.Xilinx/Spring_2014/Labs/final_project/memory_modified/sorting_tb_beh.prj" "work.sorting_tb" 

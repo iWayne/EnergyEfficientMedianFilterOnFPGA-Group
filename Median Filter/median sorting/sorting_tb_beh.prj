@@ -1,0 +1,4 @@
+vhdl work "regifile.vhd"
+vhdl work "PE.vhd"
+vhdl work "sorting.vhd"
+vhdl work "sorting_tb.vhd"

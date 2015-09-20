@@ -1,0 +1,5 @@
+Command line:
+   sorting_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  63422

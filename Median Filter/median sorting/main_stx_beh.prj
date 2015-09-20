@@ -1,0 +1,6 @@
+vhdl isim_temp "ipcore_dir/rom_initial.vhd"
+vhdl isim_temp "ipcore_dir/ram_operation.vhd"
+vhdl isim_temp "regifile.vhd"
+vhdl isim_temp "PE.vhd"
+vhdl isim_temp "sorting.vhd"
+vhdl isim_temp "../memory/main.vhd"

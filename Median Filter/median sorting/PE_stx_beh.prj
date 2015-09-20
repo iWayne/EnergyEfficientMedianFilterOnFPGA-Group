@@ -1,0 +1,2 @@
+vhdl isim_temp "regifile.vhd"
+vhdl isim_temp "PE.vhd"
