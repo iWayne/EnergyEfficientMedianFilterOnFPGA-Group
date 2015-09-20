@@ -6,6 +6,8 @@ In this project, we created a median filter to reduce the noise from images, and
 
 Besides the reducing noise, we also consider about energy-efficient and compatibility for multi resolutions.
 
+The porject is tested on Xilinx Spartan-6 LX16 FPGA
+
 ____
 
 ###DETAIL
