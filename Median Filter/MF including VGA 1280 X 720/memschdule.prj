@@ -1,0 +1,6 @@
+vhdl work "ipcore_dir/ROM_I.vhd"
+vhdl work "ipcore_dir/RAM_II.vhd"
+vhdl work "regifile.vhd"
+vhdl work "PE.vhd"
+vhdl work "sorting.vhd"
+vhdl work "memschdule.vhd"

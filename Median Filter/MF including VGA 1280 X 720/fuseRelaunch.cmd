@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified_vga/memory_modified_1280/memschdule_tb_isim_beh.exe" -prj "C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified_vga/memory_modified_1280/memschdule_tb_beh.prj" "work.memschdule_tb" 

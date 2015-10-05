@@ -1,0 +1,796 @@
+Release 14.6 - xst P.68d (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Reading design: memschdule.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "memschdule.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "memschdule"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : memschdule
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Users\Shawn\Documents\Visual Studio 2012\Projects\memory_modified_vga\memory_modified\ipcore_dir\ROM_I.vhd" into library work
+Parsing entity <ROM_I>.
+Parsing architecture <ROM_I_a> of entity <rom_i>.
+Parsing VHDL file "C:\Users\Shawn\Documents\Visual Studio 2012\Projects\memory_modified_vga\memory_modified\ipcore_dir\RAM_II.vhd" into library work
+Parsing entity <RAM_II>.
+Parsing architecture <RAM_II_a> of entity <ram_ii>.
+Parsing VHDL file "C:\Users\Shawn\Documents\Visual Studio 2012\Projects\memory_modified_vga\memory_modified\regifile.vhd" into library work
+Parsing entity <regifile>.
+Parsing architecture <Behavioral> of entity <regifile>.
+Parsing VHDL file "C:\Users\Shawn\Documents\Visual Studio 2012\Projects\memory_modified_vga\memory_modified\PE.vhd" into library work
+Parsing entity <PE>.
+Parsing architecture <Behavioral> of entity <pe>.
+Parsing VHDL file "C:\Users\Shawn\Documents\Visual Studio 2012\Projects\memory_modified_vga\memory_modified\sorting.vhd" into library work
+Parsing entity <sorting>.
+Parsing architecture <Behavioral> of entity <sorting>.
+Parsing VHDL file "C:\Users\Shawn\Documents\Visual Studio 2012\Projects\memory_modified_vga\memory_modified\memschdule.vhd" into library work
+Parsing entity <memschdule>.
+Parsing architecture <Behavioral> of entity <memschdule>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <memschdule> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <ROM_I> (architecture <ROM_I_a>) from library <work>.
+
+Elaborating entity <RAM_II> (architecture <RAM_II_a>) from library <work>.
+
+Elaborating entity <sorting> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <regifile> (architecture <Behavioral>) with generics from library <work>.
+
+Elaborating entity <PE> (architecture <Behavioral>) with generics from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <memschdule>.
+    Related source file is "C:\Users\Shawn\Documents\Visual Studio 2012\Projects\memory_modified_vga\memory_modified\memschdule.vhd".
+    Found 4-bit register for signal <show16>.
+    Found 15-bit register for signal <showaddrom>.
+    Found 15-bit register for signal <showaddram>.
+    Found 15-bit register for signal <addcount>.
+    Found 15-bit register for signal <addrom2>.
+    Found 15-bit register for signal <addramRd>.
+    Found 8-bit register for signal <dinRAM>.
+    Found 9-bit register for signal <showx0>.
+    Found 9-bit register for signal <showx1>.
+    Found 9-bit register for signal <showx2>.
+    Found 3-bit register for signal <counter>.
+    Found 1-bit register for signal <clk4>.
+    Found 1-bit register for signal <weaRAM>.
+    Found 1-bit register for signal <en0>.
+    Found 1-bit register for signal <fine>.
+    Found 1-bit register for signal <en1>.
+    Found 9-bit register for signal <y2>.
+    Found 9-bit register for signal <y0>.
+    Found 9-bit register for signal <y1>.
+    Found 32-bit register for signal <horz_scan>.
+    Found 32-bit register for signal <vert_scan>.
+    Found 3-bit adder for signal <counter[2]_GND_5_o_add_0_OUT> created at line 127.
+    Found 4-bit adder for signal <counter16[3]_GND_5_o_add_2_OUT> created at line 149.
+    Found 15-bit adder for signal <addcount[14]_GND_5_o_add_6_OUT> created at line 175.
+    Found 15-bit adder for signal <addcount[14]_GND_5_o_add_8_OUT> created at line 178.
+    Found 15-bit adder for signal <addcount[14]_GND_5_o_add_10_OUT> created at line 184.
+    Found 15-bit adder for signal <addramWt[14]_GND_5_o_add_14_OUT> created at line 193.
+    Found 32-bit adder for signal <vert_scan[31]_GND_5_o_add_70_OUT> created at line 222.
+    Found 32-bit adder for signal <horz_scan[31]_GND_5_o_add_74_OUT> created at line 225.
+    Found 15-bit adder for signal <addrom2[14]_GND_5_o_add_84_OUT> created at line 231.
+    Found 15-bit adder for signal <addramRd[14]_GND_5_o_add_92_OUT> created at line 239.
+    Found 15-bit comparator greater for signal <addcount[14]_PWR_5_o_LessThan_5_o> created at line 172
+    Found 32-bit comparator greater for signal <horz_scan[31]_GND_5_o_LessThan_80_o> created at line 228
+    Found 15-bit comparator greater for signal <addrom2[14]_PWR_5_o_LessThan_84_o> created at line 230
+    Found 32-bit comparator greater for signal <horz_scan[31]_GND_5_o_LessThan_88_o> created at line 236
+    Found 15-bit comparator greater for signal <addramRd[14]_PWR_5_o_LessThan_92_o> created at line 238
+    Found 32-bit comparator lessequal for signal <GND_5_o_horz_scan[31]_LessThan_105_o> created at line 248
+    Found 32-bit comparator lessequal for signal <GND_5_o_vert_scan[31]_LessThan_106_o> created at line 249
+    Found 32-bit comparator lessequal for signal <n0122> created at line 251
+    Found 32-bit comparator greater for signal <GND_5_o_horz_scan[31]_LessThan_110_o> created at line 251
+    Found 32-bit comparator greater for signal <vert_scan[31]_GND_5_o_LessThan_111_o> created at line 252
+    Found 32-bit comparator greater for signal <GND_5_o_vert_scan[31]_LessThan_112_o> created at line 252
+    Found 32-bit comparator lessequal for signal <n0129> created at line 252
+    Found 32-bit comparator greater for signal <GND_5_o_horz_scan[31]_LessThan_114_o> created at line 252
+    Summary:
+	inferred   9 Adder/Subtractor(s).
+	inferred 213 D-type flip-flop(s).
+	inferred  13 Comparator(s).
+	inferred  14 Multiplexer(s).
+Unit <memschdule> synthesized.
+
+Synthesizing Unit <sorting>.
+    Related source file is "C:\Users\Shawn\Documents\Visual Studio 2012\Projects\memory_modified_vga\memory_modified\sorting.vhd".
+        n = 3
+INFO:Xst:3210 - "C:\Users\Shawn\Documents\Visual Studio 2012\Projects\memory_modified_vga\memory_modified\sorting.vhd" line 91: Output port <H> of the instance <uut3> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Shawn\Documents\Visual Studio 2012\Projects\memory_modified_vga\memory_modified\sorting.vhd" line 92: Output port <H> of the instance <uut4> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Shawn\Documents\Visual Studio 2012\Projects\memory_modified_vga\memory_modified\sorting.vhd" line 94: Output port <L> of the instance <uut6> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Shawn\Documents\Visual Studio 2012\Projects\memory_modified_vga\memory_modified\sorting.vhd" line 95: Output port <H> of the instance <uut7> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Shawn\Documents\Visual Studio 2012\Projects\memory_modified_vga\memory_modified\sorting.vhd" line 96: Output port <L> of the instance <uut8> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Shawn\Documents\Visual Studio 2012\Projects\memory_modified_vga\memory_modified\sorting.vhd" line 97: Output port <L> of the instance <uut9> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Shawn\Documents\Visual Studio 2012\Projects\memory_modified_vga\memory_modified\sorting.vhd" line 99: Output port <L> of the instance <uut11> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Shawn\Documents\Visual Studio 2012\Projects\memory_modified_vga\memory_modified\sorting.vhd" line 100: Output port <H> of the instance <uut12> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <sorting> synthesized.
+
+Synthesizing Unit <regifile>.
+    Related source file is "C:\Users\Shawn\Documents\Visual Studio 2012\Projects\memory_modified_vga\memory_modified\regifile.vhd".
+        n = 3
+    Found 3-bit register for signal <Q_tmp>.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+Unit <regifile> synthesized.
+
+Synthesizing Unit <PE>.
+    Related source file is "C:\Users\Shawn\Documents\Visual Studio 2012\Projects\memory_modified_vga\memory_modified\PE.vhd".
+        n = 3
+    Found 3-bit comparator lessequal for signal <inter1> created at line 61
+    Summary:
+	inferred   1 Comparator(s).
+	inferred   2 Multiplexer(s).
+Unit <PE> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 9
+ 15-bit adder                                          : 5
+ 3-bit adder                                           : 1
+ 32-bit adder                                          : 2
+ 4-bit adder                                           : 1
+# Registers                                            : 153
+ 1-bit register                                        : 5
+ 15-bit register                                       : 5
+ 3-bit register                                        : 133
+ 32-bit register                                       : 2
+ 4-bit register                                        : 1
+ 8-bit register                                        : 1
+ 9-bit register                                        : 6
+# Comparators                                          : 52
+ 15-bit comparator greater                             : 3
+ 3-bit comparator lessequal                            : 39
+ 32-bit comparator greater                             : 6
+ 32-bit comparator lessequal                           : 4
+# Multiplexers                                         : 92
+ 15-bit 2-to-1 multiplexer                             : 8
+ 2-bit 2-to-1 multiplexer                              : 2
+ 3-bit 2-to-1 multiplexer                              : 82
+
+=========================================================================
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <ipcore_dir/ROM_I.ngc>.
+Reading core <ipcore_dir/RAM_II.ngc>.
+Loading core <ROM_I> for timing and area information for instance <R0>.
+Loading core <RAM_II> for timing and area information for instance <R1>.
+WARNING:Xst:1290 - Hierarchical block <DUT1> is unconnected in block <uut3>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <DUT1> is unconnected in block <uut4>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <DUT2> is unconnected in block <uut6>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <DUT1> is unconnected in block <uut7>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <DUT2> is unconnected in block <uut8>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <DUT2> is unconnected in block <uut9>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <DUT2> is unconnected in block <uut11>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <DUT1> is unconnected in block <uut12>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <DUT1> is unconnected in block <uut3>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <DUT1> is unconnected in block <uut4>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <DUT2> is unconnected in block <uut6>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <DUT1> is unconnected in block <uut7>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <DUT2> is unconnected in block <uut8>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <DUT2> is unconnected in block <uut9>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <DUT2> is unconnected in block <uut11>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <DUT1> is unconnected in block <uut12>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <DUT1> is unconnected in block <uut3>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <DUT1> is unconnected in block <uut4>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <DUT2> is unconnected in block <uut6>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <DUT1> is unconnected in block <uut7>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <DUT2> is unconnected in block <uut8>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <DUT2> is unconnected in block <uut9>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <DUT2> is unconnected in block <uut11>.
+   It will be removed from the design.
+WARNING:Xst:1290 - Hierarchical block <DUT1> is unconnected in block <uut12>.
+   It will be removed from the design.
+WARNING:Xst:1710 - FF/Latch <Q_tmp_2> (without init value) has a constant value of 0 in block <R1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Q_tmp_2> (without init value) has a constant value of 0 in block <R1_add>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <x0_2> (without init value) has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <x1_2> (without init value) has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <x2_2> (without init value) has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <y2_2> (without init value) has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <y0_2> (without init value) has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <y1_2> (without init value) has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+
+Synthesizing (advanced) Unit <memschdule>.
+The following registers are absorbed into counter <counter16>: 1 register on signal <counter16>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+The following registers are absorbed into counter <addcount>: 1 register on signal <addcount>.
+The following registers are absorbed into counter <addramWt>: 1 register on signal <addramWt>.
+The following registers are absorbed into counter <horz_scan>: 1 register on signal <horz_scan>.
+The following registers are absorbed into counter <vert_scan>: 1 register on signal <vert_scan>.
+Unit <memschdule> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 3
+ 15-bit adder                                          : 3
+# Counters                                             : 6
+ 15-bit up counter                                     : 2
+ 3-bit up counter                                      : 1
+ 32-bit up counter                                     : 2
+ 4-bit up counter                                      : 1
+# Registers                                            : 508
+ Flip-Flops                                            : 508
+# Comparators                                          : 52
+ 15-bit comparator greater                             : 3
+ 3-bit comparator lessequal                            : 39
+ 32-bit comparator greater                             : 6
+ 32-bit comparator lessequal                           : 4
+# Multiplexers                                         : 92
+ 15-bit 2-to-1 multiplexer                             : 8
+ 2-bit 2-to-1 multiplexer                              : 2
+ 3-bit 2-to-1 multiplexer                              : 82
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <x0_2> (without init value) has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <x1_2> (without init value) has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <x2_2> (without init value) has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <y2_2> (without init value) has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <y0_2> (without init value) has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <y1_2> (without init value) has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <weaRAM_0> in Unit <memschdule> is equivalent to the following FF/Latch, which will be removed : <en0> 
+INFO:Xst:2261 - The FF/Latch <R12/Q_tmp_0> in Unit <sorting> is equivalent to the following FF/Latch, which will be removed : <R4/Q_tmp_0> 
+INFO:Xst:2261 - The FF/Latch <R12/Q_tmp_1> in Unit <sorting> is equivalent to the following FF/Latch, which will be removed : <R4/Q_tmp_1> 
+INFO:Xst:2261 - The FF/Latch <R12/Q_tmp_2> in Unit <sorting> is equivalent to the following FF/Latch, which will be removed : <R4/Q_tmp_2> 
+INFO:Xst:2261 - The FF/Latch <R9/Q_tmp_0> in Unit <sorting> is equivalent to the following FF/Latch, which will be removed : <R3/Q_tmp_0> 
+INFO:Xst:2261 - The FF/Latch <R9/Q_tmp_1> in Unit <sorting> is equivalent to the following FF/Latch, which will be removed : <R3/Q_tmp_1> 
+INFO:Xst:2261 - The FF/Latch <R9/Q_tmp_2> in Unit <sorting> is equivalent to the following FF/Latch, which will be removed : <R3/Q_tmp_2> 
+WARNING:Xst:2677 - Node <uut3/DUT1/Q_tmp_2> of sequential type is unconnected in block <sorting>.
+WARNING:Xst:2677 - Node <uut3/DUT1/Q_tmp_1> of sequential type is unconnected in block <sorting>.
+WARNING:Xst:2677 - Node <uut3/DUT1/Q_tmp_0> of sequential type is unconnected in block <sorting>.
+WARNING:Xst:2677 - Node <uut4/DUT1/Q_tmp_2> of sequential type is unconnected in block <sorting>.
+WARNING:Xst:2677 - Node <uut4/DUT1/Q_tmp_1> of sequential type is unconnected in block <sorting>.
+WARNING:Xst:2677 - Node <uut4/DUT1/Q_tmp_0> of sequential type is unconnected in block <sorting>.
+WARNING:Xst:2677 - Node <uut6/DUT2/Q_tmp_2> of sequential type is unconnected in block <sorting>.
+WARNING:Xst:2677 - Node <uut6/DUT2/Q_tmp_1> of sequential type is unconnected in block <sorting>.
+WARNING:Xst:2677 - Node <uut6/DUT2/Q_tmp_0> of sequential type is unconnected in block <sorting>.
+WARNING:Xst:2677 - Node <uut7/DUT1/Q_tmp_2> of sequential type is unconnected in block <sorting>.
+WARNING:Xst:2677 - Node <uut7/DUT1/Q_tmp_1> of sequential type is unconnected in block <sorting>.
+WARNING:Xst:2677 - Node <uut7/DUT1/Q_tmp_0> of sequential type is unconnected in block <sorting>.
+WARNING:Xst:2677 - Node <uut8/DUT2/Q_tmp_2> of sequential type is unconnected in block <sorting>.
+WARNING:Xst:2677 - Node <uut8/DUT2/Q_tmp_1> of sequential type is unconnected in block <sorting>.
+WARNING:Xst:2677 - Node <uut8/DUT2/Q_tmp_0> of sequential type is unconnected in block <sorting>.
+WARNING:Xst:2677 - Node <uut9/DUT2/Q_tmp_2> of sequential type is unconnected in block <sorting>.
+WARNING:Xst:2677 - Node <uut9/DUT2/Q_tmp_1> of sequential type is unconnected in block <sorting>.
+WARNING:Xst:2677 - Node <uut9/DUT2/Q_tmp_0> of sequential type is unconnected in block <sorting>.
+WARNING:Xst:2677 - Node <uut11/DUT2/Q_tmp_2> of sequential type is unconnected in block <sorting>.
+WARNING:Xst:2677 - Node <uut11/DUT2/Q_tmp_1> of sequential type is unconnected in block <sorting>.
+WARNING:Xst:2677 - Node <uut11/DUT2/Q_tmp_0> of sequential type is unconnected in block <sorting>.
+WARNING:Xst:2677 - Node <uut12/DUT1/Q_tmp_2> of sequential type is unconnected in block <sorting>.
+WARNING:Xst:2677 - Node <uut12/DUT1/Q_tmp_1> of sequential type is unconnected in block <sorting>.
+WARNING:Xst:2677 - Node <uut12/DUT1/Q_tmp_0> of sequential type is unconnected in block <sorting>.
+INFO:Xst:2146 - In block <memschdule>, Counter <counter16> <counter> are equivalent, XST will keep only <counter16>.
+
+Optimizing unit <memschdule> ...
+
+Optimizing unit <sorting> ...
+WARNING:Xst:1710 - FF/Latch <S2/uut11/DUT1/Q_tmp_2> (without init value) has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <S2/uut10/DUT1/Q_tmp_2> (without init value) has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <S2/uut10/DUT2/Q_tmp_2> (without init value) has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <S2/uut9/DUT1/Q_tmp_2> (without init value) has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <S2/uut8/DUT1/Q_tmp_2> (without init value) has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <S2/uut7/DUT2/Q_tmp_2> (without init value) has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <S2/uut6/DUT1/Q_tmp_2> (without init value) has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <S2/uut5/DUT1/Q_tmp_2> (without init value) has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <S2/uut5/DUT2/Q_tmp_2> (without init value) has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <S2/uut4/DUT2/Q_tmp_2> (without init value) has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <S2/uut3/DUT2/Q_tmp_2> (without init value) has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <S2/uut2/DUT1/Q_tmp_2> (without init value) has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <S2/uut2/DUT2/Q_tmp_2> (without init value) has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <S2/uut1/DUT1/Q_tmp_2> (without init value) has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <S2/uut1/DUT2/Q_tmp_2> (without init value) has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <S2/uut0/DUT1/Q_tmp_2> (without init value) has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <S2/uut0/DUT2/Q_tmp_2> (without init value) has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <S2/R1/Q_tmp_2> (without init value) has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <S2/uut12/DUT2/Q_tmp_2> (without init value) has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <S2/R15/Q_tmp_2> (without init value) has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <S2/R14/Q_tmp_2> (without init value) has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <S2/R12/Q_tmp_2> (without init value) has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <S2/R11/Q_tmp_2> (without init value) has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <S2/R10/Q_tmp_2> (without init value) has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <S2/R9/Q_tmp_2> (without init value) has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <S2/R2/Q_tmp_2> (without init value) has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <S2/R1_add/Q_tmp_2> (without init value) has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <S2/R0/Q_tmp_2> (without init value) has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <S2/R16/Q_tmp_2> (without init value) has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <S2/R7/Q_tmp_2> (without init value) has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <S2/R6/Q_tmp_2> (without init value) has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <S2/R5/Q_tmp_2> (without init value) has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <S2/R8/Q_tmp_2> (without init value) has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <S2/R13/Q_tmp_2> (without init value) has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <vert_scan_10> has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <vert_scan_11> has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <vert_scan_12> has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <vert_scan_13> has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <vert_scan_14> has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <vert_scan_15> has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <vert_scan_16> has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <vert_scan_17> has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <vert_scan_18> has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <vert_scan_19> has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <vert_scan_20> has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <vert_scan_21> has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <vert_scan_22> has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <vert_scan_23> has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <vert_scan_24> has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <vert_scan_25> has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <vert_scan_26> has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <vert_scan_27> has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <vert_scan_28> has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <vert_scan_29> has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <vert_scan_30> has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <vert_scan_31> has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <horz_scan_10> has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <horz_scan_11> has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <horz_scan_12> has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <horz_scan_13> has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <horz_scan_14> has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <horz_scan_15> has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <horz_scan_16> has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <horz_scan_17> has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <horz_scan_18> has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <horz_scan_19> has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <horz_scan_20> has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <horz_scan_21> has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <horz_scan_22> has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <horz_scan_23> has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <horz_scan_24> has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <horz_scan_25> has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <horz_scan_26> has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <horz_scan_27> has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <horz_scan_28> has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <horz_scan_29> has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <horz_scan_30> has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <horz_scan_31> has a constant value of 0 in block <memschdule>. This FF/Latch will be trimmed during the optimization process.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block memschdule, actual ratio is 7.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 431
+ Flip-Flops                                            : 431
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : memschdule.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 773
+#      GND                         : 3
+#      INV                         : 11
+#      LUT1                        : 82
+#      LUT2                        : 64
+#      LUT3                        : 112
+#      LUT4                        : 86
+#      LUT5                        : 40
+#      LUT6                        : 128
+#      MUXCY                       : 153
+#      VCC                         : 2
+#      XORCY                       : 92
+# FlipFlops/Latches                : 443
+#      FD                          : 20
+#      FDC                         : 295
+#      FDCE                        : 92
+#      FDE                         : 36
+# RAMS                             : 30
+#      RAMB16BWER                  : 30
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 90
+#      IBUF                        : 1
+#      OBUF                        : 89
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             443  out of  18224     2%  
+ Number of Slice LUTs:                  523  out of   9112     5%  
+    Number used as Logic:               523  out of   9112     5%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    660
+   Number with an unused Flip Flop:     217  out of    660    32%  
+   Number with an unused LUT:           137  out of    660    20%  
+   Number of fully used LUT-FF pairs:   306  out of    660    46%  
+   Number of unique control sets:         9
+
+IO Utilization: 
+ Number of IOs:                          91
+ Number of bonded IOBs:                  91  out of    232    39%  
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:               30  out of     32    93%  
+    Number using Block RAM only:         30
+ Number of BUFG/BUFGCTRLs:                2  out of     16    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 422   |
+clk4                               | BUFG                   | 51    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 5.180ns (Maximum Frequency: 193.063MHz)
+   Minimum input arrival time before clock: 5.558ns
+   Maximum output required time after clock: 8.165ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 4.718ns (frequency: 211.959MHz)
+  Total number of paths / destination ports: 3441 / 1005
+-------------------------------------------------------------------------
+Delay:               4.718ns (Levels of Logic = 2)
+  Source:            addcount_11 (FF)
+  Destination:       addrom1_0 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: addcount_11 to addrom1_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             5   0.447   1.079  addcount_11 (addcount_11)
+     LUT6:I0->O            1   0.203   0.580  _n0482_inv11 (_n0482_inv11)
+     LUT5:I4->O          102   0.205   1.882  _n0482_inv12 (_n0482_inv1)
+     FDE:CE                    0.322          y2_0
+    ----------------------------------------
+    Total                      4.718ns (1.177ns logic, 3.541ns route)
+                                       (24.9% logic, 75.1% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk4'
+  Clock period: 5.180ns (frequency: 193.063MHz)
+  Total number of paths / destination ports: 4945 / 65
+-------------------------------------------------------------------------
+Delay:               5.180ns (Levels of Logic = 8)
+  Source:            vert_scan_8 (FF)
+  Destination:       addrom2_0 (FF)
+  Source Clock:      clk4 rising
+  Destination Clock: clk4 rising
+
+  Data Path: vert_scan_8 to addrom2_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               9   0.447   1.174  vert_scan_8 (vert_scan_8)
+     LUT5:I0->O            0   0.203   0.000  Mcompar_GND_5_o_vert_scan[31]_LessThan_112_o_lutdi (Mcompar_GND_5_o_vert_scan[31]_LessThan_112_o_lutdi)
+     MUXCY:DI->O           1   0.145   0.000  Mcompar_GND_5_o_vert_scan[31]_LessThan_112_o_cy<1> (Mcompar_GND_5_o_vert_scan[31]_LessThan_112_o_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_5_o_vert_scan[31]_LessThan_112_o_cy<2> (Mcompar_GND_5_o_vert_scan[31]_LessThan_112_o_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_5_o_vert_scan[31]_LessThan_112_o_cy<3> (Mcompar_GND_5_o_vert_scan[31]_LessThan_112_o_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_5_o_vert_scan[31]_LessThan_112_o_cy<4> (Mcompar_GND_5_o_vert_scan[31]_LessThan_112_o_cy<4>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_5_o_vert_scan[31]_LessThan_112_o_cy<5> (Mcompar_GND_5_o_vert_scan[31]_LessThan_112_o_cy<5>)
+     MUXCY:CI->O          19   0.213   1.416  Mcompar_GND_5_o_vert_scan[31]_LessThan_112_o_cy<6> (Mcompar_GND_5_o_vert_scan[31]_LessThan_112_o_cy<6>)
+     LUT6:I1->O           15   0.203   0.981  _n0395_inv1 (_n0395_inv)
+     FDCE:CE                   0.322          addrom2_0
+    ----------------------------------------
+    Total                      5.180ns (1.609ns logic, 3.571ns route)
+                                       (31.1% logic, 68.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 380 / 380
+-------------------------------------------------------------------------
+Offset:              5.558ns (Levels of Logic = 3)
+  Source:            rst (PAD)
+  Destination:       y2_0 (FF)
+  Destination Clock: clk rising
+
+  Data Path: rst to y2_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O           408   1.222   2.425  rst_IBUF (rst_IBUF)
+     LUT5:I0->O           24   0.203   1.401  _n0518_inv1_rstpot (_n0518_inv1_rstpot)
+     LUT3:I0->O            1   0.205   0.000  y2_0_dpot (y2_0_dpot)
+     FDE:D                     0.102          y2_0
+    ----------------------------------------
+    Total                      5.558ns (1.732ns logic, 3.826ns route)
+                                       (31.2% logic, 68.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk4'
+  Total number of paths / destination ports: 51 / 51
+-------------------------------------------------------------------------
+Offset:              3.952ns (Levels of Logic = 2)
+  Source:            rst (PAD)
+  Destination:       vert_scan_0 (FF)
+  Destination Clock: clk4 rising
+
+  Data Path: rst to vert_scan_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O           408   1.222   2.425  rst_IBUF (rst_IBUF)
+     LUT5:I0->O            1   0.203   0.000  vert_scan_0_rstpot (vert_scan_0_rstpot)
+     FD:D                      0.102          vert_scan_0
+    ----------------------------------------
+    Total                      3.952ns (1.527ns logic, 2.425ns route)
+                                       (38.6% logic, 61.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 259 / 83
+-------------------------------------------------------------------------
+Offset:              7.844ns (Levels of Logic = 5)
+  Source:            R1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram (RAM)
+  Destination:       red_out<2> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: R1/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram to red_out<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     RAMB16BWER:CLKB->DOB3    1   1.850   0.827  U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/s6_noinit.ram/SDP.SIMPLE_PRIM18.ram (U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.ram_doutb<3>)
+     LUT6:I2->O            1   0.203   0.580  U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i<7>1 (U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i<7>)
+     LUT3:I2->O            1   0.205   0.827  U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/doutb_i<7>2 (doutb<7>)
+     end scope: 'R1:doutb<7>'
+     LUT4:I0->O            1   0.203   0.579  Mmux_red_out31 (red_out_2_OBUF)
+     OBUF:I->O                 2.571          red_out_2_OBUF (red_out<2>)
+    ----------------------------------------
+    Total                      7.844ns (5.032ns logic, 2.812ns route)
+                                       (64.1% logic, 35.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk4'
+  Total number of paths / destination ports: 1257 / 10
+-------------------------------------------------------------------------
+Offset:              8.165ns (Levels of Logic = 10)
+  Source:            vert_scan_8 (FF)
+  Destination:       red_out<2> (PAD)
+  Source Clock:      clk4 rising
+
+  Data Path: vert_scan_8 to red_out<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               9   0.447   1.174  vert_scan_8 (vert_scan_8)
+     LUT5:I0->O            0   0.203   0.000  Mcompar_GND_5_o_vert_scan[31]_LessThan_112_o_lutdi (Mcompar_GND_5_o_vert_scan[31]_LessThan_112_o_lutdi)
+     MUXCY:DI->O           1   0.145   0.000  Mcompar_GND_5_o_vert_scan[31]_LessThan_112_o_cy<1> (Mcompar_GND_5_o_vert_scan[31]_LessThan_112_o_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_5_o_vert_scan[31]_LessThan_112_o_cy<2> (Mcompar_GND_5_o_vert_scan[31]_LessThan_112_o_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_5_o_vert_scan[31]_LessThan_112_o_cy<3> (Mcompar_GND_5_o_vert_scan[31]_LessThan_112_o_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_5_o_vert_scan[31]_LessThan_112_o_cy<4> (Mcompar_GND_5_o_vert_scan[31]_LessThan_112_o_cy<4>)
+     MUXCY:CI->O           1   0.019   0.000  Mcompar_GND_5_o_vert_scan[31]_LessThan_112_o_cy<5> (Mcompar_GND_5_o_vert_scan[31]_LessThan_112_o_cy<5>)
+     MUXCY:CI->O          19   0.213   1.319  Mcompar_GND_5_o_vert_scan[31]_LessThan_112_o_cy<6> (Mcompar_GND_5_o_vert_scan[31]_LessThan_112_o_cy<6>)
+     LUT6:I2->O            8   0.203   1.031  Mmux_blue_out121 (Mmux_blue_out12)
+     LUT4:I1->O            1   0.205   0.579  Mmux_red_out31 (red_out_2_OBUF)
+     OBUF:I->O                 2.571          red_out_2_OBUF (red_out<2>)
+    ----------------------------------------
+    Total                      8.165ns (4.063ns logic, 4.102ns route)
+                                       (49.8% logic, 50.2% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    4.718|         |         |         |
+clk4           |    2.843|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clk4
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk4           |    5.180|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 11.59 secs
+ 
+--> 
+
+Total memory usage is 262516 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  140 (   0 filtered)
+Number of infos    :   17 (   0 filtered)
+

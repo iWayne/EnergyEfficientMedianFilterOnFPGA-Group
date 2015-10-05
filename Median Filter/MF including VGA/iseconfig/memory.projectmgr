@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="memory" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/memschdule - Behavioral C:|Users|Shawn|Documents|Visual Studio 2012|Projects|memory_modified_vga|memory_modified|memschdule.vhd/S0 - sorting - Behavioral</ClosedNode>
+         <ClosedNode>/memschdule - Behavioral C:|Users|Shawn|Documents|Visual Studio 2012|Projects|memory_modified_vga|memory_modified|memschdule.vhd/S1 - sorting - Behavioral</ClosedNode>
+         <ClosedNode>/memschdule - Behavioral C:|Users|Shawn|Documents|Visual Studio 2012|Projects|memory_modified_vga|memory_modified|memschdule.vhd/S2 - sorting - Behavioral</ClosedNode>
+         <ClosedNode>/memschdule - Behavioral C:|Users|Shawn|Documents|Visual Studio 2012|Projects|memory_modified|memory_modified|memschdule.vhd/S0 - sorting - Behavioral</ClosedNode>
+         <ClosedNode>/memschdule - Behavioral C:|Users|Shawn|Documents|Visual Studio 2012|Projects|memory_modified|memory_modified|memschdule.vhd/S1 - sorting - Behavioral</ClosedNode>
+         <ClosedNode>/memschdule - Behavioral C:|Users|Shawn|Documents|Visual Studio 2012|Projects|memory_modified|memory_modified|memschdule.vhd/S2 - sorting - Behavioral</ClosedNode>
+         <ClosedNode>/memschdule - Behavioral C:|Users|Shawn|Documents|Visual Studio 2012|Projects|memory_modified|memory_modified|memschdule.vhd/V0 - vga - Behavioral</ClosedNode>
+         <ClosedNode>/sorting - Behavioral C:|.Xilinx|Spring_2014|Labs|final_project|memory|sorting.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>memschdule - Behavioral (C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified_vga/memory_modified/memschdule.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000154000000020000000000000000000000000200000064ffffffff000000810000000300000002000001540000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>memschdule - Behavioral (C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified_vga/memory_modified/memschdule.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Design Utilities</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000014e000000010000000100000000000000000000000064ffffffff0000008100000000000000010000014e0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Design Utilities</CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000002b7000000040101000100000000000000000000000064ffffffff000000810000000000000004000000400000000100000000000000240000000100000000000000680000000100000000000001eb0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>memschdule.vhd</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000121000000010001000100000000000000000000000064ffffffff000000810000000000000001000001210000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_XCO" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000b8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000b80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff0000000000000002000000ed0000008301000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/main - Behavioral C:|.Xilinx|Spring_2014|Labs|final_project|memory|main.vhd/sort_b - sorting - Behavioral</ClosedNode>
+         <ClosedNode>/main - Behavioral C:|.Xilinx|Spring_2014|Labs|final_project|memory|main.vhd/sort_g - sorting - Behavioral</ClosedNode>
+         <ClosedNode>/main - Behavioral C:|.Xilinx|Spring_2014|Labs|final_project|memory|main.vhd/sort_r - sorting - Behavioral</ClosedNode>
+         <ClosedNode>/memschdule_tb - behavior C:|Users|Shawn|Documents|Visual Studio 2012|Projects|memory_modified_vga|memory_modified|memschdule_tb.vhd/uut - memschdule - Behavioral</ClosedNode>
+         <ClosedNode>/memschdule_tb - behavior C:|Users|Shawn|Documents|Visual Studio 2012|Projects|memory_modified_vga|memory_modified|memschdule_tb.vhd/uut - memschdule - Behavioral/S0 - sorting - Behavioral</ClosedNode>
+         <ClosedNode>/memschdule_tb - behavior C:|Users|Shawn|Documents|Visual Studio 2012|Projects|memory_modified|memory_modified|memschdule_tb.vhd/uut - memschdule - Behavioral/S0 - sorting - Behavioral</ClosedNode>
+         <ClosedNode>/memschdule_tb - behavior C:|Users|Shawn|Documents|Visual Studio 2012|Projects|memory_modified|memory_modified|memschdule_tb.vhd/uut - memschdule - Behavioral/S1 - sorting - Behavioral</ClosedNode>
+         <ClosedNode>/memschdule_tb - behavior C:|Users|Shawn|Documents|Visual Studio 2012|Projects|memory_modified|memory_modified|memschdule_tb.vhd/uut - memschdule - Behavioral/S2 - sorting - Behavioral</ClosedNode>
+         <ClosedNode>/sorting - Behavioral C:|.Xilinx|Spring_2014|Labs|final_project|memory|sorting.vhd</ClosedNode>
+         <ClosedNode>/sorting - Behavioral C:|.Xilinx|Spring_2014|Labs|final_project|memory|sorting.vhd/uut1 - PE - Behavioral</ClosedNode>
+         <ClosedNode>/sorting - Behavioral C:|.Xilinx|Spring_2014|Labs|final_project|memory|sorting.vhd/uut2 - PE - Behavioral</ClosedNode>
+         <ClosedNode>/sorting - Behavioral C:|.Xilinx|Spring_2014|Labs|final_project|memory|sorting.vhd/uut3 - PE - Behavioral</ClosedNode>
+         <ClosedNode>/sorting - Behavioral C:|.Xilinx|Spring_2014|Labs|final_project|memory|sorting.vhd/uut4 - PE - Behavioral</ClosedNode>
+         <ClosedNode>/sorting_tb - behavior C:|.Xilinx|Spring_2014|Labs|final_project|memory_modified|sorting_tb.vhd/uut - sorting - Behavioral/uut0 - PE - Behavioral</ClosedNode>
+         <ClosedNode>/sorting_tb - behavior C:|.Xilinx|Spring_2014|Labs|final_project|memory_modified|sorting_tb.vhd/uut - sorting - Behavioral/uut1 - PE - Behavioral</ClosedNode>
+         <ClosedNode>/sorting_tb - behavior C:|.Xilinx|Spring_2014|Labs|final_project|memory_modified|sorting_tb.vhd/uut - sorting - Behavioral/uut10 - PE - Behavioral</ClosedNode>
+         <ClosedNode>/sorting_tb - behavior C:|.Xilinx|Spring_2014|Labs|final_project|memory_modified|sorting_tb.vhd/uut - sorting - Behavioral/uut11 - PE - Behavioral</ClosedNode>
+         <ClosedNode>/sorting_tb - behavior C:|.Xilinx|Spring_2014|Labs|final_project|memory_modified|sorting_tb.vhd/uut - sorting - Behavioral/uut12 - PE - Behavioral</ClosedNode>
+         <ClosedNode>/sorting_tb - behavior C:|.Xilinx|Spring_2014|Labs|final_project|memory_modified|sorting_tb.vhd/uut - sorting - Behavioral/uut2 - PE - Behavioral</ClosedNode>
+         <ClosedNode>/sorting_tb - behavior C:|.Xilinx|Spring_2014|Labs|final_project|memory_modified|sorting_tb.vhd/uut - sorting - Behavioral/uut3 - PE - Behavioral</ClosedNode>
+         <ClosedNode>/sorting_tb - behavior C:|.Xilinx|Spring_2014|Labs|final_project|memory_modified|sorting_tb.vhd/uut - sorting - Behavioral/uut4 - PE - Behavioral</ClosedNode>
+         <ClosedNode>/sorting_tb - behavior C:|.Xilinx|Spring_2014|Labs|final_project|memory_modified|sorting_tb.vhd/uut - sorting - Behavioral/uut5 - PE - Behavioral</ClosedNode>
+         <ClosedNode>/sorting_tb - behavior C:|.Xilinx|Spring_2014|Labs|final_project|memory_modified|sorting_tb.vhd/uut - sorting - Behavioral/uut6 - PE - Behavioral</ClosedNode>
+         <ClosedNode>/sorting_tb - behavior C:|.Xilinx|Spring_2014|Labs|final_project|memory_modified|sorting_tb.vhd/uut - sorting - Behavioral/uut7 - PE - Behavioral</ClosedNode>
+         <ClosedNode>/sorting_tb - behavior C:|.Xilinx|Spring_2014|Labs|final_project|memory_modified|sorting_tb.vhd/uut - sorting - Behavioral/uut8 - PE - Behavioral</ClosedNode>
+         <ClosedNode>/sorting_tb - behavior C:|.Xilinx|Spring_2014|Labs|final_project|memory_modified|sorting_tb.vhd/uut - sorting - Behavioral/uut9 - PE - Behavioral</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>memschdule_tb - behavior (C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified_vga/memory_modified/memschdule_tb.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000177000000020000000000000000000000000200000064ffffffff000000810000000300000002000001770000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>memschdule_tb - behavior (C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified_vga/memory_modified/memschdule_tb.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_XCO" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+</Project>

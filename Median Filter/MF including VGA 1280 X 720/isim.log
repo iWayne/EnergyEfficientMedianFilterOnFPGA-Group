@@ -1,0 +1,20 @@
+ISim log file
+Running: C:\Users\Shawn\Documents\Visual Studio 2012\Projects\memory_modified_vga\memory_modified_1280\memschdule_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified_vga/memory_modified_1280/memschdule_tb_isim_beh.wdb 
+ISim P.68d (signature 0x7708f090)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ms
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /memschdule_tb/uut/S0/uut0/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+Finished circuit initialization process.
+at 170 ns(1), Instance /memschdule_tb/uut/R1/U0/native_mem_module/mem_module/ : Warning: blk_mem_gen_v7_3 WARNING: collision detected: A write address: 000000000000000, B read address: 000000000000000
+
+at 175 ns(1): Note: Block Memory Generator CORE Generator module is using a behavioral model FOR simulation which will not precisely model memory collision behavior. (/memschdule_tb/uut/R1/U0/native_mem_module/mem_module/).
+at 175 ns(1), Instance /memschdule_tb/uut/R1/U0/native_mem_module/mem_module/ : Warning: blk_mem_gen_v7_3 WARNING: collision detected: A write address: 000000000000000, B read address: 000000000000000
+
+Stopped at time : 692960 ns : File "C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified_vga/memory_modified_1280/regifile.vhd" Line 40

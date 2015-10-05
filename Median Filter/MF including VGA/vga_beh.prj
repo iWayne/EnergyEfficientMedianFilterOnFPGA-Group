@@ -1,0 +1,3 @@
+vhdl work "ipcore_dir/ROM_I.vhd"
+vhdl work "ipcore_dir/RAM_II.vhd"
+vhdl work "vga.vhd"

@@ -1,0 +1,19 @@
+//! **************************************************************************
+// Written by: Map P.68d on Wed May 21 11:34:38 2014
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "V10" LEVEL 1;
+COMP "rst" LOCATE = SITE "B8" LEVEL 1;
+COMP "blue_out<0>" LOCATE = SITE "R7" LEVEL 1;
+COMP "blue_out<1>" LOCATE = SITE "T7" LEVEL 1;
+COMP "green_out<0>" LOCATE = SITE "P8" LEVEL 1;
+COMP "green_out<1>" LOCATE = SITE "T6" LEVEL 1;
+COMP "green_out<2>" LOCATE = SITE "V6" LEVEL 1;
+COMP "hs_out" LOCATE = SITE "N6" LEVEL 1;
+COMP "vs_out" LOCATE = SITE "P7" LEVEL 1;
+COMP "red_out<0>" LOCATE = SITE "U7" LEVEL 1;
+COMP "red_out<1>" LOCATE = SITE "V7" LEVEL 1;
+COMP "red_out<2>" LOCATE = SITE "N7" LEVEL 1;
+SCHEMATIC END;
+

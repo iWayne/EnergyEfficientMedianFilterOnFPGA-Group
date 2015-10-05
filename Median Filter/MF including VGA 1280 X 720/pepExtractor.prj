@@ -1,0 +1,6 @@
+work	"PE.vhd"
+work	"ipcore_dir/RAM_II.vhd"
+work	"ipcore_dir/ROM_I.vhd"
+work	"memschdule.vhd"
+work	"regifile.vhd"
+work	"sorting.vhd"

@@ -1,0 +1,40 @@
+Running: C:\Xilinx\14.6\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified_vga/memory_modified_1280/memschdule_tb_isim_beh.exe -prj C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified_vga/memory_modified_1280/memschdule_tb_beh.prj work.memschdule_tb 
+ISim P.68d (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified_vga/memory_modified_1280/ipcore_dir/ROM_I.vhd" into library work
+Parsing VHDL file "C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified_vga/memory_modified_1280/ipcore_dir/RAM_II.vhd" into library work
+Parsing VHDL file "C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified_vga/memory_modified_1280/regifile.vhd" into library work
+Parsing VHDL file "C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified_vga/memory_modified_1280/PE.vhd" into library work
+Parsing VHDL file "C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified_vga/memory_modified_1280/sorting.vhd" into library work
+Parsing VHDL file "C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified_vga/memory_modified_1280/memschdule.vhd" into library work
+Parsing VHDL file "C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified_vga/memory_modified_1280/memschdule_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package textio
+Compiling package std_logic_textio
+Compiling architecture output_stage_behavioral of entity BLK_MEM_GEN_V7_3_output_stage [\BLK_MEM_GEN_V7_3_output_stage("...]
+Compiling architecture softecc_output_reg_stage_behavioral of entity BLK_MEM_GEN_V7_3_softecc_output_reg_stage [\BLK_MEM_GEN_V7_3_softecc_output...]
+Compiling architecture mem_module_behavioral of entity BLK_MEM_GEN_V7_3_mem_module [\BLK_MEM_GEN_V7_3_mem_module("bl...]
+Compiling architecture behavioral of entity BLK_MEM_GEN_V7_3 [\BLK_MEM_GEN_V7_3("blk_mem_gen_v...]
+Compiling architecture rom_i_a of entity ROM_I [rom_i_default]
+Compiling architecture output_stage_behavioral of entity BLK_MEM_GEN_V7_3_output_stage [\BLK_MEM_GEN_V7_3_output_stage("...]
+Compiling architecture mem_module_behavioral of entity BLK_MEM_GEN_V7_3_mem_module [\BLK_MEM_GEN_V7_3_mem_module("bl...]
+Compiling architecture behavioral of entity BLK_MEM_GEN_V7_3 [\BLK_MEM_GEN_V7_3("blk_mem_gen_v...]
+Compiling architecture ram_ii_a of entity RAM_II [ram_ii_default]
+Compiling architecture behavioral of entity regifile [\regifile(3)\]
+Compiling architecture behavioral of entity PE [\PE(3)\]
+Compiling architecture behavioral of entity sorting [\sorting(3)\]
+Compiling architecture behavioral of entity memschdule [memschdule_default]
+Compiling architecture behavior of entity memschdule_tb
+Time Resolution for simulation is 1ps.
+Waiting for 8 sub-compilation(s) to finish...
+Compiled 33 VHDL Units
+Built simulation executable C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified_vga/memory_modified_1280/memschdule_tb_isim_beh.exe
+Fuse Memory Usage: 55244 KB
+Fuse CPU Usage: 3249 ms

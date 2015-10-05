@@ -1,0 +1,4 @@
+vhdl isim_temp "regifile.vhd"
+vhdl isim_temp "PE.vhd"
+vhdl isim_temp "sorting.vhd"
+vhdl isim_temp "sorting_tb.vhd"

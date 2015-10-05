@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Shawn\Documents\Visual Studio 2012\Projects\memory_modified_vga\memory_modified_1280\memschdule.ncd
+OUTFILE=C:\Users\Shawn\Documents\Visual Studio 2012\Projects\memory_modified_vga\memory_modified_1280\memschdule.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\Users\Shawn\Documents\Visual Studio 2012\Projects\memory_modified_vga\memory_modified_1280
+LICENSE=WebPack
+USER_INFO=210850284_0_0_836

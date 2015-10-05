@@ -1,0 +1,63 @@
+xst -intstyle ise -ifn "C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified/memory_modified/memschdule.xst" -ofn "C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified/memory_modified/memschdule.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Xilinx/2014Spring/vgatest/counter_Master.ucf -p xc6slx16-csg324-3 "memschdule.ngc" memschdule.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Xilinx/2014Spring/vgatest/counter_Master.ucf -p xc6slx16-csg324-3 "memschdule.ngc" memschdule.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o memschdule_map.ncd memschdule.ngd memschdule.pcf 
+xst -intstyle ise -ifn "C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified_vga/memory_modified/memschdule.xst" -ofn "C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified_vga/memory_modified/memschdule.syr" 
+xst -intstyle ise -ifn "C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified_vga/memory_modified/memschdule.xst" -ofn "C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified_vga/memory_modified/memschdule.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Xilinx/2014Spring/vgatest/counter_Master.ucf -p xc6slx16-csg324-3 "memschdule.ngc" memschdule.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o memschdule_map.ncd memschdule.ngd memschdule.pcf 
+par -w -intstyle ise -ol high -mt off memschdule_map.ncd memschdule.ncd memschdule.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml memschdule.twx memschdule.ncd -o memschdule.twr memschdule.pcf 
+bitgen -intstyle ise -f memschdule.ut memschdule.ncd 
+xst -intstyle ise -ifn "C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified_vga/memory_modified/memschdule.xst" -ofn "C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified_vga/memory_modified/memschdule.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Xilinx/2014Spring/vgatest/counter_Master.ucf -p xc6slx16-csg324-3 "memschdule.ngc" memschdule.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o memschdule_map.ncd memschdule.ngd memschdule.pcf 
+par -w -intstyle ise -ol high -mt off memschdule_map.ncd memschdule.ncd memschdule.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml memschdule.twx memschdule.ncd -o memschdule.twr memschdule.pcf 
+bitgen -intstyle ise -f memschdule.ut memschdule.ncd 
+xst -intstyle ise -ifn "C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified_vga/memory_modified/memschdule.xst" -ofn "C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified_vga/memory_modified/memschdule.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Xilinx/2014Spring/vgatest/counter_Master.ucf -p xc6slx16-csg324-3 "memschdule.ngc" memschdule.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o memschdule_map.ncd memschdule.ngd memschdule.pcf 
+par -w -intstyle ise -ol high -mt off memschdule_map.ncd memschdule.ncd memschdule.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml memschdule.twx memschdule.ncd -o memschdule.twr memschdule.pcf 
+bitgen -intstyle ise -f memschdule.ut memschdule.ncd 
+xst -intstyle ise -ifn "C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified_vga/memory_modified/memschdule.xst" -ofn "C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified_vga/memory_modified/memschdule.syr" 
+xst -intstyle ise -ifn "C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified_vga/memory_modified/memschdule.xst" -ofn "C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified_vga/memory_modified/memschdule.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Xilinx/2014Spring/vgatest/counter_Master.ucf -p xc6slx16-csg324-3 "memschdule.ngc" memschdule.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o memschdule_map.ncd memschdule.ngd memschdule.pcf 
+par -w -intstyle ise -ol high -mt off memschdule_map.ncd memschdule.ncd memschdule.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml memschdule.twx memschdule.ncd -o memschdule.twr memschdule.pcf 
+bitgen -intstyle ise -f memschdule.ut memschdule.ncd 
+xst -intstyle ise -ifn "C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified_vga/memory_modified/memschdule.xst" -ofn "C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified_vga/memory_modified/memschdule.syr" 
+xst -intstyle ise -ifn "C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified_vga/memory_modified/memschdule.xst" -ofn "C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified_vga/memory_modified/memschdule.syr" 
+xst -intstyle ise -ifn "C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified_vga/memory_modified/memschdule.xst" -ofn "C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified_vga/memory_modified/memschdule.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Xilinx/2014Spring/vgatest/counter_Master.ucf -p xc6slx16-csg324-3 "memschdule.ngc" memschdule.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o memschdule_map.ncd memschdule.ngd memschdule.pcf 
+par -w -intstyle ise -ol high -mt off memschdule_map.ncd memschdule.ncd memschdule.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml memschdule.twx memschdule.ncd -o memschdule.twr memschdule.pcf 
+bitgen -intstyle ise -f memschdule.ut memschdule.ncd 
+xst -intstyle ise -ifn "C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified_vga/memory_modified/memschdule.xst" -ofn "C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified_vga/memory_modified/memschdule.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Xilinx/2014Spring/vgatest/counter_Master.ucf -p xc6slx16-csg324-3 "memschdule.ngc" memschdule.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o memschdule_map.ncd memschdule.ngd memschdule.pcf 
+xst -intstyle ise -ifn "C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified_vga/memory_modified/memschdule.xst" -ofn "C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified_vga/memory_modified/memschdule.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Xilinx/2014Spring/vgatest/counter_Master.ucf -p xc6slx16-csg324-3 "memschdule.ngc" memschdule.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o memschdule_map.ncd memschdule.ngd memschdule.pcf 
+par -w -intstyle ise -ol high -mt off memschdule_map.ncd memschdule.ncd memschdule.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml memschdule.twx memschdule.ncd -o memschdule.twr memschdule.pcf 
+bitgen -intstyle ise -f memschdule.ut memschdule.ncd 
+xst -intstyle ise -ifn "C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified_vga/memory_modified/memschdule.xst" -ofn "C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified_vga/memory_modified/memschdule.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Xilinx/2014Spring/vgatest/counter_Master.ucf -p xc6slx16-csg324-3 "memschdule.ngc" memschdule.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o memschdule_map.ncd memschdule.ngd memschdule.pcf 
+par -w -intstyle ise -ol high -mt off memschdule_map.ncd memschdule.ncd memschdule.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml memschdule.twx memschdule.ncd -o memschdule.twr memschdule.pcf 
+bitgen -intstyle ise -f memschdule.ut memschdule.ncd 
+xst -intstyle ise -ifn "C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified_vga/memory_modified/memschdule.xst" -ofn "C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified_vga/memory_modified/memschdule.syr" 
+xst -intstyle ise -ifn "C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified_vga/memory_modified/memschdule.xst" -ofn "C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified_vga/memory_modified/memschdule.syr" 
+xst -intstyle ise -ifn "C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified_vga/memory_modified/memschdule.xst" -ofn "C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified_vga/memory_modified/memschdule.syr" 
+xst -intstyle ise -ifn "C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified_vga/memory_modified/memschdule.xst" -ofn "C:/Users/Shawn/Documents/Visual Studio 2012/Projects/memory_modified_vga/memory_modified/memschdule.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Xilinx/2014Spring/vgatest/counter_Master.ucf -p xc6slx16-csg324-3 "memschdule.ngc" memschdule.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc C:/Xilinx/2014Spring/vgatest/counter_Master.ucf -p xc6slx16-csg324-3 "memschdule.ngc" memschdule.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o memschdule_map.ncd memschdule.ngd memschdule.pcf 
+par -w -intstyle ise -ol high -mt off memschdule_map.ncd memschdule.ncd memschdule.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml memschdule.twx memschdule.ncd -o memschdule.twr memschdule.pcf 
+bitgen -intstyle ise -f memschdule.ut memschdule.ncd 
